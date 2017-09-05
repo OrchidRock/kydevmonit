@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<node name="/com/jd/test">
+  <interface name="com.jd.test.interface">
+    <method name="call_monitor_method">
+      <annotation name="org.freedesktop.DBus.GLib.Async" value="" />
+      <arg type="(iiiis)" name="hw_method_t" direction="in" />
+      <arg type="(iis)" name="hw_return_t" direction="out" />
+    </method>
+    <method name="intropect">
+      <annotation name="org.freedesktop.DBus.GLib.Async" value="" />
+      <arg type="s" name="name" direction="in"/> 
+      <arg type="s" name="data" direction="out"/> 
+    </method>
+  </interface>
+</node>

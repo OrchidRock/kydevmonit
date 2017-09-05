@@ -1,0 +1,8 @@
+[Unit]
+Description= kydevmonit demo server
+
+[Service]
+ExecStart= /usr/bin/kydevmonit
+
+[Install]
+WantedBy= multi-user.target

@@ -1,0 +1,3 @@
+dbus 传递结构体的demo server端
+命令行形式需要用root权限，也可以用服务的方式启动。
+systemctl start/status/stop dbus-demo-server
